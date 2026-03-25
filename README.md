@@ -112,18 +112,6 @@ glh/
 
 ---
 
-## CSS Architecture
 
-All styling uses **CSS Modules** (`*.module.css`) scoped to each component/page, plus a shared `globals.css` that defines all design tokens as CSS custom properties:
-
-```css
-:root {
-  --earth-700: #2d4a1e;   /* primary green */
-  --gold-500:  #c8a84b;   /* accent gold   */
-  --radius:    10px;
-  --font-display: 'Playfair Display', serif;
-  /* ... */
-}
-```
 
 
