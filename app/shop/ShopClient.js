@@ -43,7 +43,7 @@ export default function ShopClient({ products, categories }) {
           <div className={u.sectionTag}>Fresh Harvest</div>
           <h1 className={u.sectionTitle}>Our Produce</h1>
           <p className={u.sectionSub}>
-            All items are sourced directly from GLH partner farms. Stock updates in real-time.
+            All items are sourced directly from GLH partner farms.
           </p>
         </div>
 
@@ -79,7 +79,7 @@ export default function ShopClient({ products, categories }) {
                   </div>
                   <div className={s.cardBody}>
                     <div className={s.productName}>{p.name}</div>
-                    <div className={s.productFarmer}>by {p.farmers?.name}</div>
+                   
                     <p className={s.productDesc}>{p.description}</p>
                     <div className={s.cardFooter}>
                       <div>
