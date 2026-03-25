@@ -1,6 +1,5 @@
-# GLH Co-operative Farms
 
-Full-stack co-operative farming marketplace built with **Next.js 14**, **Supabase**, and **CSS** 
+Ts co-operative farming marketplace built with **Next.js 14**, **Supabase**, and **React** 
 
 ---
 
