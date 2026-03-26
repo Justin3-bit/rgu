@@ -24,13 +24,13 @@ export default async function HomePage() {
       <section className={s.hero}>
         <div className={s.heroBg} />
         <div className={`container ${s.heroInner}`}>
-          <div className={s.heroTag}>🌿 Rooted in Community</div>
+         
           <h1 className={s.heroH1}>
             From Our Farms<br />
             <span className={s.heroAccent}>To Your Table</span>
           </h1>
           <p className={s.heroSub}>
-            GLH Co-operative connects smallholder farmers across the UK with consumers who care. Fresh produce, fair prices, and full transparency — every harvest, every order.
+            GLH Co-operative connects smallholder farmers across the UK with consumers who care.
           </p>
           <div className={s.heroActions}>
             <Link href="/shop">

@@ -9,9 +9,9 @@ import { createClient } from "@/lib/supabase/client"
 import { toast } from "sonner"
 
 const TABS = [
-  { key: "orders",  label: "📦 Orders" },
-  { key: "profile", label: "👤 Profile" },
-  { key: "address", label: "📍 Address" },
+  { key: "orders",  label: " Orders" },
+  { key: "profile", label: " Profile" },
+  { key: "address", label: " Address" },
 ]
 
 export default function AccountClient({ user, profile, orders }) {
@@ -38,7 +38,7 @@ export default function AccountClient({ user, profile, orders }) {
     const { error } = await supabase.from("profiles").update(form).eq("id", user.id)
     setSaving(false)
     if (error) toast.error(error.message)
-    else       toast.success("Profile updated ✅")
+    else       toast.success("Profile updated ")
   }
 
   return (
@@ -110,7 +110,7 @@ export default function AccountClient({ user, profile, orders }) {
                           ))}
                         </div>
                         <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginTop: "0.35rem" }}>
-                          <span className={s.orderAddress}>📍 {o.address}, {o.city} {o.postcode}</span>
+                          <span className={s.orderAddress}> {o.address}, {o.city} {o.postcode}</span>
                           <span className={s.orderTotal}>£{Number(o.total).toFixed(2)}</span>
                         </div>
                       </div>
